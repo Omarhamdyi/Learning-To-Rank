@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "home-depot-ltr-ma-yz-oh"
+version = "0.1.0"
+description = "Home Depot Learning-to-Rank package with policy/pipeline/model architecture"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "LTR Team" }
+]
+license = { text = "Proprietary" }
+keywords = ["ltr", "search", "ranking", "home-depot", "lightgbm", "streamlit"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: Other/Proprietary License",
+  "Operating System :: OS Independent"
+]
+
+[tool.setuptools.packages.find]
+include = ["ltrpkg*"]

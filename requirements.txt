@@ -1,0 +1,12 @@
+pandas
+numpy
+scipy
+scikit-learn
+lightgbm
+rank-bm25
+streamlit
+joblib
+sentence-transformers
+faiss-cpu
+pydantic
+pydantic-settings
